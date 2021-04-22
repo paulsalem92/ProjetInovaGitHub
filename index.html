@@ -5,10 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Countries</title>
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />-->
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Countries</h1>
+
+    <div id="input-group">
+      <input
+        type="search"
+        class="form-control rounded"
+        placeholder="Search"
+        aria-label="Search"
+        aria-describedby="search-addon"
+      />
+      <button type="button" class="btn btn-outline-primary">search</button>
+    </div>
 
     <div id="main-container">
       <div id="flag-container">
@@ -28,18 +47,6 @@
       </div>
     </div>
 
-    <br />
-
-    <div class="input-group">
-      <input
-        type="search"
-        class="form-control rounded"
-        placeholder="Search"
-        aria-label="Search"
-        aria-describedby="search-addon"
-      />
-      <button type="button" class="btn btn-outline-primary">search</button>
-    </div>
     <script src="main.js"></script>
   </body>
 </html>

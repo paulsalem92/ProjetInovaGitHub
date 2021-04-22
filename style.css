@@ -43,6 +43,18 @@ h1 {
   font-weight: normal;
 }
 
+#input-group {
+  display: block;
+  margin: 20px auto;
+  padding: 5px;
+  min-width: 100%;
+  color: #333;
+  font-size: 15px;
+  font-weight: 900;
+  text-align-last: center;
+  padding: 0 10px;
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 12px;
